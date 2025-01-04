@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7个数平均值计算器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>7个数平均值计算器</h1>
+        <form id="numberForm">
+            <div class="input-group" id="numberInputs">
+                <!-- 输入框将通过下面的JavaScript代码动态添加，但为了简洁，这里直接写出7个输入框的HTML -->
+                <div class="input-field">
+                    <label for="number1">请输入第1个数:</label>
+                    <input type="number" id="number1" name="number1" required>
+                </div>
+                <div class="input-field">
+                    <label for="number2">请输入第2个数:</label>
+                    <input type="number" id="number2" name="number2" required>
+                </div>
+                <div class="input-field">
+                    <label for="number3">请输入第3个数:</label>
+                    <input type="number" id="number3" name="number3" required>
+                </div>
+                <div class="input-field">
+                    <label for="number4">请输入第4个数:</label>
+                    <input type="number" id="number4" name="number4" required>
+                </div>
+                <div class="input-field">
+                    <label for="number5">请输入第5个数:</label>
+                    <input type="number" id="number5" name="number5" required>
+                </div>
+                <div class="input-field">
+                    <label for="number6">请输入第6个数:</label>
+                    <input type="number" id="number6" name="number6" required>
+                </div>
+                <div class="input-field">
+                    <label for="number7">请输入第7个数:</label>
+                    <input type="number" id="number7" name="number7" required>
+                </div>
+            </div>
+            <button type="button" onclick="calculateAverage()">计算平均值</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
